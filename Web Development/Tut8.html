@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>HTML Form Tutorial</h2>
+    <form action="Backend.php">
+        <label for="name"> Name</label>
+        <div>
+         <input type="text" name="MyName" id="name">
+        </div>
+        <br>
+        <label for="Role"> Role</label> 
+        <div>
+            <input type="text" name="label" id="label">
+        </div>
+        <br>
+        <label for="Email"> Email</label>
+        <div>
+            <input type="email" name="MyEmail" id="Email">
+        </div>
+        <br>
+        <label for="Date"> Date</label>
+        <div>
+            <input type="date" name= "My Date" id="Date">
+        </div>
+    <br>
+    <div>
+        My Salary: 10000000<name= "My Salary">
+    </div>
+    <br>
+    <label for="Bonus"> Bonus</label>
+    <div>
+        <input type="number" name ="Bonus" id="Bonus">
+    </div>
+    <br>
+    <label for="Are you Eligible for Bonus?">Are you Eligible for Bonus?</label>
+    <div>
+         <input type="checkbox" name="MyEligibility" id="Are you Eligible for Bonus?">
+    </div>
+    <br>
+    Gender:
+    <label for="Male"> Male</label>
+    <input type="radio" name="MyGender" id="Male">
+    <label for="Female"> Female</label>
+    <input type="radio" name="MyGender" id="Female">
+    <label for="Other"> Other</label>
+    <input type="radio" name="MyGender" id="Other">
+    <br>
+    </div>
+    <br>
+    <label for="Write about yourself"> Write about yourself:</label>
+    <div>
+        <textarea name="MyText" cols="90" rows="10" id="Write about yourself"></textarea>
+    </div>
+    <br>
+    <div>
+        <label for="car">Car</label>
+        <select name="MyCar" id="car">
+            <option value="BMW">BMW</option>  
+            <option value="Audi">Audi</option>  
+            <option value="Mercedes">Mercedes</option>  
+        </select>
+    </div>
+    <br>
+    <div>
+        <input type="Submit" value="Submit Now">
+        <input type="reset" value="Reset Now">
+    </div>
+    </form>
+</body>
+</html>
